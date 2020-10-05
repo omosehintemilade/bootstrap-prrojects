@@ -1,0 +1,376 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+
+/* global */
+
+.article-button {
+    font-size: 16px;
+}
+
+.container {
+    width: 90%;
+    overflow: hidden;
+    margin: auto;
+}
+
+a {
+    text-decoration-line: none;
+}
+
+
+/* header */
+
+header {
+    background-color: #343a40;
+    color: white;
+}
+
+.contacts h1 {
+    margin-bottom: -10px;
+}
+
+header ul {
+    margin-left: -34px;
+}
+
+.about-nav {
+    /* display: flex;
+    justify-content: space-between;
+    align-items: center; */
+    /* display: grid; */
+    /* grid-template-columns: 1fr 1fr; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: yellow; */
+    /* flex-wrap: wrap; */
+}
+
+
+/* link styling */
+
+.about {
+    flex: 1;
+}
+
+.about p {
+    color: #6c757d;
+}
+
+.contacts {
+    /* background-color: rebeccapurple; */
+    display: grid;
+    place-content: center;
+    flex: 1;
+}
+
+.contacts a {
+    color: whitesmoke;
+}
+
+.contacts ul {
+    list-style-type: none;
+}
+
+.album-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.camera-album {
+    display: flex;
+    align-items: center;
+}
+
+.album-menu .fa-bars {
+    /* background-color: red; */
+    font-size: 40px;
+    margin-right: 100px;
+    color: white;
+    border: 3px #494e53 solid;
+    padding: 0px 8px;
+}
+
+.album-menu .fa-camera {
+    margin: 10px;
+    font-size: 30px;
+    /* color: black; */
+}
+
+.album-menu h1 {
+    font-size: 25px;
+}
+
+
+/* showcase */
+
+.showcase-container {
+    /* background-color: seagreen; */
+    width: 60%;
+    margin: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 70px;
+    /* font-weight: 400; */
+    font-size: 1.25rem;
+    font-weight: 300;
+    color: #55595c;
+}
+
+.showcase {
+    background-color: #fff;
+}
+
+.showcase h1 {
+    font-size: 40px;
+    margin-bottom: -20px;
+    font-weight: 300;
+}
+
+.showcase p {
+    font-weight: 300;
+}
+
+.main {
+    background-color: #007bff;
+    color: #f2f8ff;
+    border: 3px #007bff solid;
+}
+
+.secondary {
+    background-color: #6c757d;
+    color: #f2f8ff;
+    border: 3px #6c757d solid;
+}
+
+.showcase button {
+    /* background: blue; */
+    /* border: 3px black solid; */
+    border-radius: 5px;
+    padding: 8px 6px;
+    font-size: 18px;
+    margin-bottom: 10px;
+    outline: none;
+}
+
+
+/*  */
+
+
+/* article */
+
+.view:hover {
+    background-color: #55595c;
+    color: whitesmoke;
+}
+
+.edit:hover {
+    background-color: #55595c;
+    color: whitesmoke;
+}
+
+.mother-thumbnail {
+    display: grid;
+    place-content: center;
+}
+
+.thumbnail {
+    background: #55595c;
+    height: 250px;
+    width: 300px;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.thumbnail-article {
+    background: #ffffff;
+    width: 300px;
+    height: 175px;
+    margin-top: -13px;
+    display: grid;
+    place-content: center;
+    padding: 10px;
+    color: #6c757d;
+}
+
+.article-button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: chartreuse; */
+    font-size: 16px;
+}
+
+.edit {
+    font-size: 16px;
+    margin-left: -8px;
+    transition: all 0.15s ease-in-out;
+    color: #6c757d;
+    outline: none;
+}
+
+.view {
+    font-size: 16px;
+    transition: all 0.15s ease-in-out;
+    color: #6c757d;
+    outline: none;
+}
+
+
+/* article { */
+
+article {
+    background-color: #f8f9fa;
+    margin-top: 50px;
+}
+
+.b-hom {
+    background-color: #f8f9fa;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 40px;
+    margin: 20px auto;
+    grid-column-gap: 20px;
+    padding: 70px;
+    width: 80%;
+}
+
+
+/* footer */
+
+footer {
+    display: flex;
+    padding: 30px;
+    color: #55595c;
+}
+
+.footer-container {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+    /* display: flex; */
+    justify-content: space-between;
+}
+
+footer a {
+    color: #007bff;
+}
+
+.footer-p-2 p {
+    margin-top: -5px;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-to-bootstrap {
+    margin-top: -10px;
+}
+
+@media(max-width: 1110px) {
+    /* body { */
+    /* background-color: brown; */
+    /* display: none; */
+    /* } */
+    .thumbnail {
+        width: 230px;
+        height: 230px;
+        padding: 10px;
+    }
+    .thumbnail-article {
+        width: 230px;
+        height: 230px;
+        padding: 10px;
+    }
+    .article-button {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: chartreuse; */
+        font-size: 16px;
+        margin-left: -8px;
+    }
+}
+
+@media(max-width: 886px) {
+    .thumbnail-article {
+        width: 185px;
+        height: 230px;
+    }
+    .thumbnail {
+        width: 185px;
+        height: 230px;
+    }
+    /* article */
+    .b-hom {
+        background-color: #f8f9fa;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-row-gap: 40px;
+        margin: 20px auto;
+        grid-column-gap: 20px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:769px) {
+    /*  body {
+         display: none;
+    } */
+    .about-nav {
+        /* background-color: blue; */
+        display: block;
+    }
+    .contacts {
+        /* text-align: left; */
+        /* background-color: yellow; */
+        display: grid;
+        place-content: flex-start;
+    }
+    .b-hom {
+        background-color: #f8f9fa;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 40px;
+        margin: auto;
+        grid-column-gap: 20px;
+        place-content: center;
+        padding: 10px;
+    }
+    .thumbnail {
+        width: 80%;
+        height: 230px;
+    }
+    .thumbnail-article {
+        width: 80%;
+        height: 230px;
+    }
+    .main {
+        margin-bottom: 10px;
+    }
+    .footer-container {
+        width: 100%;
+        overflow: hidden;
+        margin: auto;
+    }
+    .footer-album-example {
+        display: flex;
+        flex: 1;
+    }
+}
